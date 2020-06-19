@@ -16,15 +16,13 @@
             }
 
             h6{
-                 color:   #ffd700;
+                 color:  #ffd700;
                  font-family: 'Courier New', Courier, monospace;
                  font-weight: bold;
                  font-size: 18px;
-                 text-transform: capitalize;
                  position: absolute;
-                 border-radius: 12px;
                  left:500px;
-                 top:450px;
+                 top:500px;
              }
         
              h2{
@@ -32,9 +30,7 @@
                  font-family: 'Courier New', Courier, monospace;
                  font-weight: bold;
                  font-size: 60px;
-                 text-transform: capitalize;
-                 position: absolute;
-                 border-radius: 12px;
+                 position: absolute;x
                  left:450px;
                  top:50px;
 
@@ -72,34 +68,45 @@
 
             .Btop{
                 position: absolute;
-                left:600px;
-                top:200px;
+                left:102px;
+                top:10px;
             }
 
             .Bright{
                 position: absolute;
-                left:680px;
-                top:280px;  
+                left:200px;
+                top:100px;  
             }
             .Bleft{
                 position: absolute;
-                left:520px;
-                top:280px;  
+                left:10px;
+                top:100px;  
             }
             .Bdown{
                 position: absolute;
-                left:600px;
-                top:360px;  
+                left:102px;
+                top:200px;  
             }
             .Bstop{
                 position: absolute;
-                left:600px;
-                top:280px; 
+                left:102px;
+                top:100px;  
+
             }
 
             .img{
                 width: 80%;
                 height: 100%;
+            }
+
+            #box{
+                border: 5px solid black;
+                border-radius: 20px;
+                width: 280px;
+                height: 290px;
+                position: absolute;
+                top: 180px;
+                left:550px;
             }
         </style>
     </head>
@@ -115,13 +122,15 @@
     <!-- CONTROL PANLE BUTTON -->
     <div> 
         <h2>CONTROL PANEL</h2>  
-        <button  class="button Btop"> <i class='fas' style="font-size:50px;">&#xf106;</i> </button> 
-        <button  class="button Bleft"><i class='fas' style="font-size:50px;">&#xf104;</i> </button>
-        <button  class="button Bright"><i class='fas' style="font-size:50px;">&#xf105;</i></button>
-        <button  class="button Bdown"><i class='fas' style="font-size:50px;">&#xf107;</i></button>
-
-        <button  class="button Bstop"><i class="fa fa-stop" style="font-size:30px; color:red;"></i></button>
-        <h6>Use this panel to move The Robot..</h6>
+            <p id="box">
+                <button  class="button Btop"> <i class='fas' style="font-size:50px;">&#xf106;</i> </button> 
+                <button  class="button Bleft"><i class='fas' style="font-size:50px;">&#xf104;</i> </button>
+                <button  class="button Bright"><i class='fas' style="font-size:50px;">&#xf105;</i></button>
+                <button  class="button Bdown"><i class='fas' style="font-size:50px;">&#xf107;</i></button>
+                <button  class="button Bstop"><i class="fa fa-stop" style=" font-size:30px; color: red;"></i></button> 
+            </p>
+        <h6>Use this panel to move The Robot...</h6>   
+       
     </div>
            
     
