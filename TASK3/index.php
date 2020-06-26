@@ -9,7 +9,6 @@ $conn = new mysqli($servername, $username, $password,"smarmethods_tasks");
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -73,15 +72,11 @@ if ($conn->connect_error) {
      
                         //PRINT THE STORED VALUE
                         $sql = "SELECT control FROM control_panel2 ORDER BY num DESC LIMIT 1";
-                        $result = $conn->query($sql);
 
-                        if ($result->num_rows > 0) {
+                        $result = $conn->query($sql);
                         $row = $result->fetch_assoc();
-                        echo sprintf("<p> MOVE TO : %s </p>", $row["control"]);
-                        }
-                        else {
-                        echo "0 results";
-                        }
+                        echo sprintf("<p> --%s-- </p>", $row["control"]);
+
                         $conn->close();
                 ?>
         </div>        
