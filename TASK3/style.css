@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content ="TASK1 SMART METHODS">
-        <meta name="outhor" content="Lama Althbiti">
-        <title>TASK1 SMART METHODS</title>
-        <link type="text/CSS" rel="stylesheet" href="style.css"/>
-        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-
-        <!-- STYLE -->
-        <style>
 
             html { 
                 background: url(background1.png) no-repeat center center fixed; 
@@ -102,32 +90,15 @@
                 left:500px;
             }
             
-            
-
-        </style>
-    </head>
-
-    <body>
-        <!-- logo with link to smart methds website -->
-        <div id="div">
-            <a href="https://www.s-m.com.sa/"><img src="logo.png" class="logo"></a>
-        </div>   
-
-        <div>
-              <img src="robot.png">
-        </div>
-      
-
-         <!-- CONTROL PANLE BUTTON -->
-        <div> 
-                <h2>CONTROL PANEL</h2>  
-                <button  class="button Btop"> <i class='fas' style="font-size:50px;">&#xf106;</i> </button> 
-                <button  class="button Bleft"><i class='fas' style="font-size:50px;">&#xf104;</i> </button>
-                <button  class="button Bright"><i class='fas' style="font-size:50px;">&#xf105;</i></button>
-                <button  class="button Bdown"><i class='fas' style="font-size:50px;">&#xf107;</i></button>
-                <button  class="button Bstop"><i class="fa fa-stop" style=" font-size:30px;"></i></button>
-                <h6>Use this panel to move The Robot...</h6>
-    </div>           
-    </body>
-
-</html>
+            p{
+                font-size: 80px;
+                font-weight: bold;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                text-align: center;
+                margin-top: 200px;
+                margin-left: 150px;
+                background-color: white;
+                padding: 40px;
+                width: 70%;
+                border: 3px solid black;
+            }
