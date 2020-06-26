@@ -79,6 +79,8 @@ if ($conn->connect_error) {
 
                         $conn->close();
                 ?>
+               <a class="per" href="http://localhost:1234/smart_methods/index.html" style="text-decoration: none;color: black;font-size: 20px;
+                  font-weight: bold;border: 1px solid black;padding: 10px;">&laquo; Previous</a>
         </div>        
         </form>
 
