@@ -165,7 +165,7 @@ for(var i=1;i<table.rows.length;i++)
       break;
 
     case "RIGHT": 
-      x=x+dictance;
+      x=x+parseInt(dictance);
       ctx.lineTo(x,y); 
       ctx.stroke();
       ctx.moveTo(x,y);
