@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content ="TASK1 SMART METHODS">
+        <meta name="outhor" content="Lama Althbiti">
+        <title>TASK3 SMART METHODS</title>
+        <link type="text/CSS" rel="stylesheet" href="style.css"/>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    </head>
+
+    <body>
+        <!-- logo with link to smart methds website -->
+        <div id="div">
+            <a href="https://www.s-m.com.sa/"><img src="logo.png" class="logo"></a>
+        </div>   
+
+        <div>
+              <img src="robot.png">
+        </div>
+            
+        <form action="index.php" method="post">
+            <div> 
+                <h2>CONTROL PANEL</h2>  
+                <button name= "top"  placeholder="control" class="button Btop"><i class='fas' style="font-size:50px;">&#xf106;</i> </button> 
+                <button name= "left"  placeholder="control" class="button Bleft"><i class='fas' style="font-size:50px;">&#xf104;</i> </button>
+                <button name= "right" placeholder="control" class="button Bright"><i class='fas' style="font-size:50px;">&#xf105;</i></button>
+                <button name= "down"  placeholder="control" class="button Bdown"><i class='fas' style="font-size:50px;">&#xf107;</i></button>
+                <button name= "stop"  placeholder="control" class="button Bstop"><i class="fa fa-stop" style=" font-size:30px;"></i></button>
+                <h6>Use this panel to move The Robot...</h6>
+        </div>     
+           
+        </form>
+
+        <script>
+            window.watsonAssistantChatOptions = {
+                integrationID: "dc7672db-28e5-443e-8770-832730d2ce77", // The ID of this integration.
+                region: "eu-gb", // The region your integration is hosted in.
+                serviceInstanceID: "2fa61132-8526-419f-b85c-d098aa1a2945", // The ID of your service instance.
+                onLoad: function(instance) { instance.render(); }
+              };
+            setTimeout(function(){
+              const t=document.createElement('script');
+              t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+              document.head.appendChild(t);
+            });
+          </script>
+    </body>
+
+</html>

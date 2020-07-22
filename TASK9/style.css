@@ -1,0 +1,104 @@
+
+            html { 
+                background: url(background1.png) no-repeat center center fixed; 
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+
+             h6{
+                 color:  black;
+                 font-family: 'Courier New', Courier, monospace;
+                 font-size: 18px;
+                 position: absolute;
+                 left:660px;
+                 top:550px;
+             }
+
+             h2{
+                 color:  rgb(16,104,119);
+                 font-family: 'Courier New', Courier, monospace;
+                 font-size: 50px;
+                 position: absolute;
+                 left:650px;
+                 top:180px;
+             }
+
+            .button{
+                background-color:rgb(182,18,89);
+                color: white;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-weight: bold;
+                width: 70px;
+                height:70px;
+                border-radius: 60px;
+                font-size: 10px;
+                text-align: center;
+                transition: all 0.5s;
+            }
+
+            .button:hover{
+                opacity:0.5;  
+            }
+
+            .logo{
+               width:150px;
+               height:150px; 
+               margin:auto;
+            }
+
+            .logo:hover{
+                opacity:0.5;   
+            }
+
+            #div{
+                width: 100%;
+                height: 200px;
+            }
+
+            .Btop{
+                position: absolute;
+                left:800px;
+                top:300px;
+            }
+
+            .Bright{
+                position: absolute;
+                left:880px;
+                top:380px;  
+            }
+            .Bleft{
+                position: absolute;
+                left:720px;
+                top:380px;  
+            }
+            .Bdown{
+                position: absolute;
+                left:800px;
+                top:460px;  
+            }
+            .Bstop{
+                position: absolute;
+                left:800px;
+                top:380px; 
+            }
+
+            #img{
+                width:400px; 
+                height:400px;
+                left:500px;
+            }
+            
+            p{
+                font-size: 80px;
+                font-weight: bold;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                text-align: center;
+                margin-top: 200px;
+                margin-left: 150px;
+                background-color: white;
+                padding: 40px;
+                width: 70%;
+                border: 3px solid black;
+            }
